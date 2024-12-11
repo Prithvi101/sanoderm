@@ -4,7 +4,7 @@ export function Nanomedicine() {
   const headerContent = {
     title: "Nanomedicine",
     description:
-      "Blueberry Therapeutics applies the latest developments in complex nanotechnology to create more effective, safer, and easier to use topical treatments.",
+      "Sanoderm applies the latest developments in complex nanotechnology to create more effective, safer, and easier to use topical treatments.",
   };
 
   return (

@@ -40,8 +40,8 @@ export function ContactInfo() {
           className="object-contain shrink-0 w-5 aspect-square"
         />
         <div className="w-[295px]">
-          Blueberry Therapeutics Ltd, Mereside, Alderley Park, Nether Alderley,
-          Macclesfield, Cheshire, SK10 4TG.
+          Sanoderm Ltd, Mereside, Alderley Park, Nether Alderley, Macclesfield,
+          Cheshire, SK10 4TG.
         </div>
       </div>
     </div>

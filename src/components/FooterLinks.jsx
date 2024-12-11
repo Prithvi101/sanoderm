@@ -25,7 +25,7 @@ const links = [
     ],
   },
   {
-    title: "Contact Blueberry Therapeutics",
+    title: "Contact Sanoderm",
     items: ["Job Vacancies", "Terms & Conditions", "Privacy Policy"],
   },
 ];

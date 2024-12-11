@@ -31,7 +31,7 @@ const newsItems = [
   {
     date: "November 13th, 2023",
     title:
-      "Blueberry Therapeutics Meets Primary and Secondary Endpoints in Phase 2b Trial in Onychomycosis",
+      "Sanoderm Meets Primary and Secondary Endpoints in Phase 2b Trial in Onychomycosis",
     content:
       "Primary endpoint (negative culture and/or clear nail growth) met with 83.3% response rate Secondary endpoints met at Week 52 after 9-months off treatment Limited Sanoderm, a pharmaceutical company focused on developing innovative, topical nanomedicines ...",
   },
@@ -45,7 +45,7 @@ const newsItems = [
     date: "July 4th, 2023",
     title: "Phase 2b Trial in Fungal Nail Infection Completed",
     content:
-      "Blueberry Therapeutics is pleased to announce the completion of our European Phase 2b trial of BB2603 (BBTAF202). This trial is assessing the efficacy and safety of different doses of BB2603, a new topical anti-fungal ...",
+      "Sanoderm is pleased to announce the completion of our European Phase 2b trial of BB2603 (BBTAF202). This trial is assessing the efficacy and safety of different doses of BB2603, a new topical anti-fungal ...",
   },
 ];
 
@@ -62,9 +62,8 @@ export default function Home() {
                 Dermatology
               </div>
               <div className="mt-4 text-xl font-light leading-6 text-stone-500 max-md:max-w-full">
-                Blueberry Therapeutics are committed to the development of
-                innovative new therapies for the treatment of common
-                dermatological disorders.
+                Sanoderm are committed to the development of innovative new
+                therapies for the treatment of common dermatological disorders.
               </div>
             </div>
             <div className="flex justify-between items-center mt-14 w-full max-md:mt-10 max-md:max-w-full">
