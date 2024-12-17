@@ -10,14 +10,34 @@ const navigationItems = [
     text: "Dermatology",
     bgColor: "bg-sky-900",
     hasDropdown: true,
+    dropDownItems: [
+      {
+        text: "Atopic Dermatitis",
+        bgColor: "bg-sky-700",
+        link: "/dermetology/AtopicDermatitis",
+      },
+      {
+        text: "Onychomycosis",
+        bgColor: "bg-sky-700",
+        link: "/dermetology/Onychomycosis",
+      },
+      {
+        text: "Tinea Pedis",
+        bgColor: "bg-sky-700",
+        link: "/dermetology/TineaPedis",
+      },
+      {
+        text: "Other Conditions",
+        bgColor: "bg-sky-700",
+        link: "/dermetology/OtherConditions",
+      },
+    ],
   },
   { text: "Nanomedicine", bgColor: "bg-sky-700", link: "/nanomedicine" },
   { text: "Clinical Trials", bgColor: "bg-sky-900", link: "/clinical-trials" },
-  { text: "Careers", bgColor: "bg-sky-700" },
-  { text: "News", bgColor: "bg-green-900" },
-  { text: "Blog", bgColor: "bg-lime-600" },
-  { text: "Contact", bgColor: "bg-green-900" },
-  { text: "About", bgColor: "bg-lime-600" },
+  { text: "Careers", bgColor: "bg-sky-700", link: "/careers" },
+  { text: "Contact", bgColor: "bg-green-900", link: "/contact" },
+  { text: "About", bgColor: "bg-lime-600", link: "/about" },
 ];
 
 function Navbar() {
@@ -25,15 +45,16 @@ function Navbar() {
     <div className=" flex flex-col items-center p-5 justify-center">
       <Header></Header>
 
-      <div className="flex flex-row items-center  mt-9 w-full text-base leading-none text-white bg-blue-500  max-w-[1280px] max-md:max-w-full">
+      <div className="flex flex-row items-center  mt-9 w-full text-base leading-none text-white justify-center   max-w-[1280px] max-md:max-w-full">
         {navigationItems.map((item, index) => (
-          <Link key={index} href={item?.link || "/"}>
-            <NavigationItem
-              text={item.text}
-              bgColor={item.bgColor}
-              hasDropdown={item.hasDropdown}
-            />
-          </Link>
+          <NavigationItem
+            text={item.text}
+            key={index}
+            bgColor={item.bgColor}
+            hasDropdown={item.hasDropdown}
+            dropDownItems={item?.dropDownItems}
+            link={item?.link}
+          />
         ))}
 
         <img

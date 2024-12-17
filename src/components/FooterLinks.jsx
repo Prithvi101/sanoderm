@@ -12,8 +12,8 @@ const links = [
     ],
   },
   {
-    title: "About Blueberry",
-    items: ["Blueberry Portfolio", "Management Team", "Board of Directors"],
+    title: "About Sanoderm",
+    items: ["Sanoderm Portfolio", "Management Team", "Board of Directors"],
   },
   {
     title: "Dermatology",

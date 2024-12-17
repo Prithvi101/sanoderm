@@ -21,9 +21,6 @@ function HeroCarousel() {
         <div>
           <img src="/2.png" alt="Slide 2" />
         </div>
-        <div>
-          <img src="/3.png" alt="Slide 3" />
-        </div>
       </Carousel>
     </div>
   );

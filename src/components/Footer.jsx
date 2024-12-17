@@ -17,14 +17,14 @@ export function Footer() {
           </div>
         </div>
         <div className="flex flex-wrap gap-10 justify-between items-center mt-14 max-md:mt-10 max-md:max-w-full">
-          <div className="flex flex-col self-stretch my-auto text-xs leading-none text-white w-[235px]">
-            <div className="flex relative flex-col text-4xl font-extrabold leading-none text-center text-lime-500 w-[235px]">
+          <div className="flex flex-col self-stretch my-auto text-xs leading-none text-white w-[235px] text-start">
+            <div className="flex relative flex-col text-4xl  font-extrabold leading-none text-start text-lime-500 ">
               SANODERM
             </div>
-            <div>Modern Drug Discovery & Development</div>
+            <div>Innovative Therapeutics in Dermatology</div>
           </div>
           <div className="self-stretch my-auto text-sm font-light leading-none text-green-500">
-            © Sanoderm Ltd is registered in England & Wales number 7839535
+            © Sanoderm Ltd is registered in England & Wales number 12860581
           </div>
         </div>
       </div>
