@@ -38,6 +38,7 @@ const navigationItems = [
   { text: "Careers", bgColor: "bg-sky-700", link: "/careers" },
   { text: "Contact", bgColor: "bg-green-900", link: "/contact" },
   { text: "About", bgColor: "bg-lime-600", link: "/about" },
+  { text: "Managment", bgColor: "bg-sky-700", link: "/about/managment" },
 ];
 
 function Navbar() {

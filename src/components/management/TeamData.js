@@ -57,16 +57,12 @@ Celegene, BMS, Boehringer Ingelheim, Roche, Novartis, JnJ, and multiple start-up
   },
   {
     name: "Jonathan Hodari",
-    role: "Board Director",
+    role: "COO",
     image: "/jonathan.jpg", // Renamed to local path
-    description: `Cofounder of multi-national CRO Inclin, has hands-
-on experience in pre-clinical pharmacology drug
-development and extensive experience in clinical
-project management. He brings over thirty years of
-experience to an organization recognized for its
-commitment to quality, clinical experience and high
-employee retention. He began his career as a
-research scientist at Cardima, Inc., COR
-Therapeutics, and Syntex Research.`,
+    description: `J runs the Investment Portfolio for Pilot
+Group, a principle shareholder in
+Sanoderm. He is the operational partner on
+a number of early-stage companies and a
+Consultant Active Partners`,
   },
 ];
