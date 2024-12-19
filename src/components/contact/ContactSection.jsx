@@ -5,8 +5,7 @@ import ContactImage from "./ContactImage";
 
 function ContactSection() {
   const contactData = {
-    email: "info@sanoderm.com",
-    phone: "01625 238776",
+    email: "info@sanoderm.bio",
     address: [
       "Sanoderm,",
       "Mereside, Alderley Park,",

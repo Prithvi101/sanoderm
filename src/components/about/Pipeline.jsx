@@ -2,6 +2,7 @@ import * as React from "react";
 import { PipelineHeader } from "./PipelineHeader";
 import { PipelineRow } from "./PipelineRow";
 import { pipelineData } from "./PipelineData";
+import Image from "next/image";
 
 export function Pipeline() {
   return (
@@ -23,10 +24,14 @@ export function Pipeline() {
           industrial partners and outsource providers to deliver our programmes.
         </div>
         <div className="flex flex-col self-stretch mt-20 w-full max-md:mt-10 max-md:max-w-full">
-          <PipelineHeader />
-          {pipelineData.map((item, index) => (
-            <PipelineRow key={index} {...item} />
-          ))}
+          <Image
+            width={1280}
+            height={700}
+            draggable={false}
+            alt="table"
+            className="select-none"
+            src={"/Table.png"}
+          ></Image>
         </div>
       </div>
     </div>

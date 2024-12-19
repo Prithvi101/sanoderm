@@ -2,7 +2,7 @@ export const pipelineData = [
   {
     product: "BB1202 (OTC)",
     indication: "Athlete's Foot\n(Tinea Pedis*)",
-    progressWidth: "378px",
+    progressWidth: "300px",
     phase: "phase2",
   },
   {
@@ -14,7 +14,7 @@ export const pipelineData = [
   {
     product: "BB1511 (Rx)",
     indication: "Eczema\n(Atopic Dermatitis)",
-    progressWidth: "127px",
+    progressWidth: "100px",
     phase: "phase1",
   },
   {

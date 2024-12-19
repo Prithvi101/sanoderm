@@ -21,24 +21,8 @@ function ContactInfo({ contactData }) {
           />
           <div className="self-stretch my-auto">{contactData.email}</div>
         </div>
-        <div className="flex shrink-0 self-stretch my-auto w-px h-6 bg-neutral-950" />
         <div className="flex gap-2 items-center self-stretch my-auto font-bold">
-          <img
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/bb449552a3e1223a1a2bef0d473487df1e3c85044d5e785ed6616f8d6bea2291?placeholderIfAbsent=true&apiKey=2b44f754f55f493a80610f16cd61c8e9"
-            alt=""
-            className="object-contain shrink-0 self-stretch my-auto w-6 aspect-square"
-          />
-          <div className="self-stretch my-auto">
-            <a
-              href={`tel:${contactData.phone.replace(/\s/g, "")}`}
-              className="font-light text-lime-600"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {contactData.phone}
-            </a>
-          </div>
+          <div className="self-stretch my-auto"></div>
         </div>
       </div>
     </>

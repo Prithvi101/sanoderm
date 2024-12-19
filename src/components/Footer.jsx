@@ -21,7 +21,9 @@ export function Footer() {
             <div className="flex relative flex-col text-4xl  font-extrabold leading-none text-start text-lime-500 ">
               SANODERM
             </div>
-            <div>Innovative Therapeutics in Dermatology</div>
+            <div className="font-serif">
+              Innovative Therapeutics in Dermatology
+            </div>
           </div>
           <div className="self-stretch my-auto text-sm font-light leading-none text-green-500">
             © Sanoderm Ltd is registered in England & Wales number 12860581

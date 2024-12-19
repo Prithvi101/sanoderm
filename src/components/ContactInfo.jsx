@@ -10,9 +10,7 @@ export function ContactInfo() {
           alt=""
           className="object-contain shrink-0 self-stretch my-auto w-5 aspect-square"
         />
-        <div className="self-stretch my-auto">
-          info@Sanodermtherapeutics.com
-        </div>
+        <div className="self-stretch my-auto">info@sanoderm.bio</div>
       </div>
       <div className="flex gap-3 items-start self-stretch mt-7 w-full leading-5">
         <img
