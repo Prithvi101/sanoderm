@@ -1,26 +1,72 @@
 export const teamMembers = [
   {
-    name: "Jurgan Dobmeyer",
-    role: "Acting Chief Medical Officer",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/10752fa7d022587fecd2efa9f9afeb4f6eb3438d12c47b74389197ef8a07913a?placeholderIfAbsent=true&apiKey=2b44f754f55f493a80610f16cd61c8e9",
-    description:
-      "Adrian Howd has served on the Board since early 2020 and took on the Executive Chairman role in January 2024. He has over 20 years of strategic financial and commercial experience in the biopharmaceutical industry, having led multiple asset and corporate business development transactions, as well as numerous equity capital market fundraises totalling over €430m. He has held various senior roles including Chief Investment Officer and Chief Executive Officer at investment firm, Malin plc, where he led the Company to its debut on the Irish stock exchange in one of the largest European life science initial public offerings to date. At Malin, Dr Howd led investment in and served on the boards of Immunocore and Kymab, two platform to therapeutic UK-based companies that both achieved multibillion USD exits. Dr. Howd is currently CFO/CBO at BiVictrix Plc, an Alderley park based Antibody Drug Conjugate (ADC) Therapeutic business.",
+    name: "Marc Shirman",
+    role: "Board Director",
+    image: "/marc.jpg", // Renamed to local path
+    description: `Marc Shirman joined the board in 2023 to manage
+the bridge capital investment in Blueberry.
+Following the acquisition by Sanoderm, Marc is
+responsible for commercialising the assets of the
+business. He is formerly the Co-Head of UK Private
+Capital at Muzinich & Co and previously Head of
+Financial Sponsors at NatWest Markets.`,
   },
   {
-    name: "Dr. David Cook",
-    role: "Chief Scientific Officer",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/d8b7a58422674235370b26eb171a726b34c080d8f46a37afab069ebda7a66982?placeholderIfAbsent=true&apiKey=2b44f754f55f493a80610f16cd61c8e9",
+    name: "Rita Dobmeyer",
+    role: "Board Member",
+    image: "/rita.jpg", // Renamed to local path
     description:
-      "David Cook has a background in biochemistry, immunology and molecular biology with a PhD from Imperial College, London. David has worked in the pharmaceutical industry for >20 years, predominantly at AstraZeneca in a wide variety of R&D roles both in the UK and the US. He initially worked in the respiratory and inflammation therapy area identifying the mode-of-action for a new class of immunosuppressives. David then moved into the safety functions and led a number of global initiatives developing new approaches to improve the understanding of safety in new medicines. David has experience across the drug discovery and development pipeline from target selection to scientific support in the life cycle of marketed products.",
+      "Rita Dobmeyer is the CEO of the European CRO Galenus G&H AG. Prior to this she was Director of European Consulting and Client Relations for Parexel GmbH, and Director of Phase IV Clinical Services and Post-Marketing Surveillance at IMS Health. Rita is the founder of eight companies and has networks with investors and key opinion leaders around the world. She is a graduate of the University of Kaiserslautern, with a PhD in infection from the German Cancer Research Centre, Heidelberg.",
   },
   {
-    name: "Mark Hollingworth",
-    role: "Finance Director",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/023b3e3cef5e8b0c0451dee3a6dc4d0c22834c7e6530d1f8c67e8bd219a8f239?placeholderIfAbsent=true&apiKey=2b44f754f55f493a80610f16cd61c8e9",
+    name: "Arnold Wong",
+    role: "Board Member",
+    image: "/arnold.jpg", // Renamed to local path
+    description: `Cofounder of multi-national CRO Inclin, has hands-
+on experience in pre-clinical pharmacology drug
+development and extensive experience in clinical
+project management. He brings over thirty years of
+experience to an organization recognized for its
+commitment to quality, clinical experience and high
+employee retention. He began his career as a
+research scientist at Cardima, Inc., COR
+Therapeutics, and Syntex Research.`,
+  },
+  {
+    name: "A Ray Chaudhuri",
+    role: "Executive Chair",
+    image: "/ray.jpg", // Renamed to local path
     description:
-      "Mark is an experienced finance leader with significant finance and business experience in bioscience, pharmaceutical and other global R&D-led companies. Mark qualified as chartered management accountant in 1999 at BAE Systems and has gone on to spend most of his career in life sciences. He provided the financial leadership to a number of major change projects at AstraZeneca over 8 years, including as Finance Director to its transformational R&D Strategy project. Since leaving AstraZeneca in 2012, he has built organisation capability in a variety of life sciences and healthcare companies as a consultant Finance Director, mainly in the anti-infectives therapy area.",
+      "Bob Clay is a pharmacist with more than 30 years of experience in drug development, leading the global regulatory approval of many products across a range of therapy areas, including more than 15 new active substances. Previously, he was VP of Global Regulatory Affairs at AstraZeneca with responsibility for oncology, infection and personalised healthcare. Bob is a Fellow and Board Member at TOPRA (President in 2017) and a member of the Expert Scientific Advisory Committee for Medicines for Malaria Venture. Bob has held significant leadership roles in regulatory affairs in regional and global functions at Pfizer, AstraZeneca and Kinapse.",
+  },
+  {
+    name: "Liam Good",
+    role: "CSO",
+    image: "/liam.jpg", // Renamed to local path
+    description: `Liam is the founder of Tecrea, a pioneering
+R&D company in the field of molecular science. By creating a patented
+nanotechnology platform, Tecrea provides a unique range of cell and tissue delivery
+tools that are fully translatable from the lab to the clinic.`,
+  },
+  {
+    name: "Juergen Dobmeyer",
+    role: "CMO",
+    image: "/juergen.jpg", // Renamed to local path
+    description: `Seasoned clinical development executive and research physician, expertise in infectious disease, oncology, and rare diseases. Successfully led global Phase 1 to NDA programs, and built lasting industry relationships for
+Celegene, BMS, Boehringer Ingelheim, Roche, Novartis, JnJ, and multiple start-up companies. He has held management roles at the Institute for Medical Statics, Frankfurt, and at IMS Health (now IQVIA), covering drug safety services, portfolio optimization, forecasting, and launch and brand management.`,
+  },
+  {
+    name: "Jonathan Hodari",
+    role: "Board Director",
+    image: "/jonathan.jpg", // Renamed to local path
+    description: `Cofounder of multi-national CRO Inclin, has hands-
+on experience in pre-clinical pharmacology drug
+development and extensive experience in clinical
+project management. He brings over thirty years of
+experience to an organization recognized for its
+commitment to quality, clinical experience and high
+employee retention. He began his career as a
+research scientist at Cardima, Inc., COR
+Therapeutics, and Syntex Research.`,
   },
 ];

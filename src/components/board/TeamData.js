@@ -1,29 +1,4 @@
-export const boardMembers = [
-  {
-    name: "Rita Dobmeyer",
-    role: "Board Member",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/1173aecc3998150539070dc98bdb6300ce6e58dbcea40c2c11f03550818cfeae?placeholderIfAbsent=true&apiKey=2b44f754f55f493a80610f16cd61c8e9",
-    description:
-      "Rita Dobmeyer is the CEO of the European CRO Galenus G&H AG. Prior to this she was Director of European Consulting and Client Relations for Parexel GmbH, and Director of Phase IV Clinical Services and Post-Marketing Surveillance at IMS Health. Rita is the founder of eight companies and has networks with investors and key opinion leaders around the world. She is a graduate of the University of Kaiserslautern, with a PhD in infection from the German Cancer Research Centre, Heidelberg.",
-  },
-  {
-    name: "James Stearns",
-    role: "Board Member",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/d8b7a58422674235370b26eb171a726b34c080d8f46a37afab069ebda7a66982?placeholderIfAbsent=true&apiKey=2b44f754f55f493a80610f16cd61c8e9",
-    description:
-      "James is a Managing Director in the Transactions team at China Medical System Holdings (CMS), International Investment and Operations with a focus on pharmaceutical assets acquisition, product licensing in/out, international business development, and asset management. He has spent the last 20 years in banking and fund management based in both London and New York, having started his career at Goldman Sachs. More recently, James was part of the Healthcare corporate advisory team and Panmure Gordon and prior to that was a fund manager at Livingbridge, with a focus on small growth companies as well as early stage companies held in the Baronsmead Venture Capital Trusts.",
-  },
-  {
-    name: "Marc Shirman",
-    role: "Investor Director",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/023b3e3cef5e8b0c0451dee3a6dc4d0c22834c7e6530d1f8c67e8bd219a8f239?placeholderIfAbsent=true&apiKey=2b44f754f55f493a80610f16cd61c8e9",
-    description:
-      "Marc Shirman joined the Sanoderm Board in July 2023 as an Investor Director. Marc is the CEO of BEXS Capital Limited, an arranger of private equity investment based in Manchester, UK. He is formerly the Co-Head of UK Private Capital at Muzinich & Co and previously Head of Financial Sponsors at NatWest Markets.",
-  },
-];
+export const boardMembers = [];
 
 export const advisors = [
   {

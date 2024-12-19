@@ -1,3 +1,4 @@
+import Image from "next/image";
 import * as React from "react";
 
 export function TeamMemberCard({ name, role, image, description }) {
@@ -5,7 +6,9 @@ export function TeamMemberCard({ name, role, image, description }) {
     <div className="flex gap-5 max-md:flex-col">
       <div className="flex flex-col w-[45%] max-md:ml-0 max-md:w-full">
         <div className="flex relative flex-col pt-80 text-center text-sky-700 aspect-square max-md:pt-24 max-md:mt-6">
-          <img
+          <Image
+            width={400}
+            height={400}
             loading="lazy"
             src={image}
             alt={`Portrait of ${name}`}
